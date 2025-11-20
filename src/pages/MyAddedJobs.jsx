@@ -82,7 +82,7 @@ const MyAddedJobs = () => {
                         </thead>
                         <tbody>
                             {jobs.map((job) => (
-                                <motion.tr 
+                                <motion.div 
                                     key={job._id} 
                                     className="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50"
                                     initial={{ opacity: 0, y: 10 }}
@@ -118,7 +118,7 @@ const MyAddedJobs = () => {
                                             <FaTrash />
                                         </button>
                                     </td>
-                                </motion.tr>
+                                </motion.div>
                             ))}
                         </tbody>
                     </table>

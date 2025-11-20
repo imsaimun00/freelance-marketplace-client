@@ -1,5 +1,3 @@
-// src/components/alljobs/JobTable.jsx
-
 import React from 'react';
 
 const JobTable = () => {

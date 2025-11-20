@@ -1,5 +1,3 @@
-// src/components/alljobs/JobCirdGrid.jsx
-
 import React from 'react';
 
 const JobCardGrid = () => {
